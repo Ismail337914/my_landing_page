@@ -1,0 +1,97 @@
+:root {
+  /* Primarne boje - PROMJENI OVE VRIJEDNOSTI ZA DRUGE BOJE */
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary-color: #f8f9fa;
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --background-light: #f8fafc;
+  --white: #ffffff;
+  --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  --border-radius: 12px;
+  
+  /* Sekundarne boje za primjere */
+  --example-1-bg: #fef3c7;  /* Frizerski salon */
+  --example-2-bg: #dbeafe;  /* Autoservis */
+  --example-3-bg: #dcfce7;  /* Stomatologija */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--secondary-color);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: var(--text-dark);
+}
+
+.cta-button {
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background: var(--primary-dark);
+}
+
+.secondary-button {
+  background: var(--white);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.secondary-button:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.whatsapp-button {
+  background: #25D366;
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
