@@ -14,7 +14,7 @@ const Services = () => {
     },
     {
       icon: '⚡',
-      title: 'Brza Iskoruka',
+      title: 'Brza Isporuka',
       description: 'Gotovo za 3 radna dana. Bez čekanja mjesecima.',
     },
   ];
