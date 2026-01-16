@@ -11,16 +11,19 @@ const Hero = () => {
   return (
     <section className="hero" style={styles.hero}>
       <div className="container">
-        <h1 style={styles.title}>Jednostavne Web Stranice za Male Biznise</h1>
+        <h1 style={styles.title}>Profesionalne web stranice za male biznise</h1>
         <p style={styles.subtitle}>
-          Napravim vam profesionalnu web stranicu za 3 dana. Brzo, jednostavno, bez komplikacija.
+          Jednostavna web stranica sa kontaktom i mapom — gotovo za 3 dana
+        </p>
+        <p className="podnaslov">
+            Kontakt forma + Google mapa + live link — gotovo za 72 sata
         </p>
         <div style={styles.buttonContainer}>
           <button 
             onClick={() => scrollToSection('kontakt')} 
             className="cta-button"
           >
-            Počni Odmah
+            Pošalj poruku
           </button>
           <button 
             onClick={() => scrollToSection('primjeri')} 

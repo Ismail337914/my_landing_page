@@ -1,34 +1,34 @@
 import React from 'react';
 
 const Services = () => {
-  const services = [
-    {
-      icon: '🌐',
-      title: 'Modern Web Dizajn',
-      description: 'Čista, profesionalna stranica koja radi na svim uređajima.',
-    },
-    {
-      icon: '📱',
-      title: 'Mobile Friendly',
-      description: 'Stranica koja savršeno izgleda i na telefonu i na desktopu.',
-    },
-    {
-      icon: '⚡',
-      title: 'Brza Isporuka',
-      description: 'Gotovo za 3 radna dana. Bez čekanja mjesecima.',
-    },
-  ];
+const usluge = [
+  {
+    ikona: "🌐",
+    naslov: "Stranica koja prima poruke",
+    opis: "Kontakt forma koja šalje upite direktno na WhatsApp i email."
+  },
+  {
+    ikona: "📱",
+    naslov: "Izgleda savršeno i na telefonu",
+    opis: "Svi će vidjeti vaš biznis — bez obzira koji uređaj koriste."
+  },
+  {
+    ikona: "⚡",
+    naslov: "Radio za 3 dana, ne 3 mjeseca",
+    opis: "Od priče do live linka — bez čekanja i odgađanja."
+  }
+];
 
   return (
     <section id="usluge" style={styles.section}>
       <div className="container">
         <h2 className="section-title">Šta Dobijate</h2>
         <div style={styles.grid}>
-          {services.map((service, index) => (
+          {usluge.map((service, index) => (
             <div key={index} style={styles.card}>
-              <div style={styles.icon}>{service.icon}</div>
-              <h3 style={styles.cardTitle}>{service.title}</h3>
-              <p style={styles.cardDescription}>{service.description}</p>
+              <div style={styles.icon}>{service.ikona}</div>
+              <h3 style={styles.cardTitle}>{service.naslov}</h3>
+              <p style={styles.cardDescription}>{service.opis}</p>
             </div>
           ))}
         </div>

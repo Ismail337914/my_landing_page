@@ -24,12 +24,14 @@ const Pricing = () => {
             <li>✓ Deployment i hosting setup</li>
             <li>✓ 7 dana podrške</li>
           </ul>
-          <button 
-            onClick={() => scrollToSection('kontakt')} 
-            style={styles.priceButton}
-          >
-            Zatraži Ponudu
-          </button>
+            <a 
+                href="https://wa.me/387603474556?text=Pozdrav!%20Želim%20web%20stranicu." 
+                className="cta-button"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+            📱 Pošalji poruku na WhatsApp
+            </a>
         </div>
       </div>
     </section>
