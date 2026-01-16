@@ -71,17 +71,29 @@ const Examples = () => {
                     ))}
                 </div>
                 <div className="mapa-demo">
-                    
+
+                <div className="mapa-demo" style={{ marginTop: '3rem', padding: '0 1rem' }}>
                     <h3>Evo kako će vaša lokacija izgledati</h3>
+                    <p style={{ color: '#666', marginBottom: '1rem' }}>
+                        Vaša adresa će biti jasno prikazana na karti
+                    </p>
+  
+                    {/* OVAJ IFRAME JE ISPRAVLJEN - camelCase atributi */}
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.244914289709!2d18.41384777648321!3d43.85683093935252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8d65f2b7c9d%3A0x6a7f9125b7e9b44c!2sSarajevo%20City%20Center!5e0!3m2!1sen!2sba!4v1713456321234!5m2!1sen!2sba"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.111010042634!2d18.39244127658654!3d43.85352773945061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c963a020b8d1%3A0x82198b6690e6e820!2seXtreme%20Software%20Group!5e0!3m2!1sbs!2sba!4v1768607317215!5m2!1sbs!2sba"
                         width="100%"
                         height="300"
-                        style={{ border: 0, borderRadius: '10px' }}
-                        allowFullScreen
-                        loading="lazy"
-                        title="Primjer lokacije"
-                    />
+                        style={{ 
+                            border: 0,
+                            borderRadius: '10px',
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                    }}
+                    allowFullScreen  
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"  
+                    title="Primjer lokacije biznisa"
+                        />
+                </div>
                 </div>
             </div>
         </section>

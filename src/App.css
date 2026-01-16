@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+:root {
+  --primary-dark: #1E2A38;     /* Tamno plava za hero */
+  --primary-accent: #F5A623;   /* Topla narančasta za dugmad */
+  --text-light: #FFFFFF;       /* Bijeli tekst */
+  --text-muted: #ECECEC;       /* Svjetliji tekst */
+  --card-bg: #F8FAFC;          /* Svijetla pozadina za kartice */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
