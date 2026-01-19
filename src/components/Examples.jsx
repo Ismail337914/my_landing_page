@@ -45,7 +45,7 @@ const Examples = () => {
             <div className="container">
                 <h2 className="section-title">Kako Bi Vaša Stranica Izgledala</h2>
                 <p style={styles.subtitle}>
-                    Ovo su primjeri koje sam napravio za lokalne biznise:
+                    Ovo su samo primjeri za lokalne biznise:
                 </p>
 
                 <div style={styles.grid}>

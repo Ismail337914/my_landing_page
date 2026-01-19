@@ -14,7 +14,7 @@ const usluge = [
   },
   {
     ikona: "⚡",
-    naslov: "Radio za 3 dana, ne 3 mjeseca",
+    naslov: "Završeno za 3 dana, ne 3 mjeseca",
     opis: "Od priče do live linka — bez čekanja i odgađanja."
   }
 ];
@@ -54,6 +54,7 @@ const styles = {
     textAlign: 'center',
     border: '1px solid #e2e8f0',
     transition: 'transform 0.3s, box-shadow 0.3s',
+    marginBottom: '1rem',
   },
   icon: {
     fontSize: '3rem',

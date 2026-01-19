@@ -10,12 +10,13 @@ const Hero = () => {
 
   return (
     <section className="hero" style={styles.hero}>
-      <div className="container">
-        <h1 style={styles.title}>Profesionalne web stranice za male biznise</h1>
+      <div className="container" style={{textAlign: "center", padding:"4rem 1rem 3rem"}}>
+        <h1 style={{fontSize: "2.5rem", marginBottom: "2.5rem"
+        }}>Profesionalne web stranice za male biznise</h1>
         <p style={styles.subtitle}>
           Jednostavna web stranica sa kontaktom i mapom — gotovo za 3 dana
         </p>
-        <p className="podnaslov">
+        <p className="podnaslov" style={{fontSize:"1.2rem", marginBottom:"2.5rem", opacity:0.8}}>
             Kontakt forma + Google mapa + live link — gotovo za 72 sata
         </p>
         <div style={styles.buttonContainer}>

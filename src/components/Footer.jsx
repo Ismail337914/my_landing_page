@@ -53,6 +53,7 @@ const styles = {
     color: 'var(--white)',
     padding: '3rem 0',
     textAlign: 'center',
+    marginTop: "60px",
   },
   logo: {
     fontSize: '1.5rem',
